@@ -1,6 +1,6 @@
 1.	Understanding each column
 
-  o	There are total of 21 columns
+  oThere are total of 21 columns
     •	Row_id: self-explanatory (9994 ids, so total 9994 orders data)
     •	Order_id: unique id of each order
     •	Order_date: Order date (format:DD:MM:YYYY)(year:2016,2017,2018,2019)
