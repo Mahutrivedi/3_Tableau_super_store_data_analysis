@@ -1,55 +1,55 @@
 1.	Understanding each column
 
-  oThere are total of 21 columns
-    •	Row_id: self-explanatory (9994 ids, so total 9994 orders data)
-    •	Order_id: unique id of each order
-    •	Order_date: Order date (format:DD:MM:YYYY)(year:2016,2017,2018,2019)
-    •	Ship_date: Shipping date (format:DD:MM:YYYY) (year:2016,2017,2018,2019,2020)
-    •	Shipping mode: Categorical: First class, Same day, Second class, Standard class
-    •	Customer_id: Unique id for each customer. Can be used for counting total unique customers
-    •	Customer_name: Name of customer (First and last name combined)
-    •	Segment: Consumer, Corporate, Home office 
-    •	Country: USA only one category
-    •	City: Various cities of state
-    •	State: State of country
-    •	Postal code: Various posting code (There are some blanks)
-    •	Region: Central, east, south, west
-    •	Product_id: Unique product id (Can be used to count unique products)
-    •	Category: Category of product: Furniture, office supplies, technology
-    •	Sub-category: Subcategory in Furniture, office supplies, technology
-    •	Product_name: Unique name of product (Just like product id, product name can be used to count unique products)
-    •	Sales: Sales of each order: 0.444 to 22638
-    •	Quantity: Quantity of items bought in one order: 1 to 14
-    •	Discount: discount on items: 0 to 0.8
-    •	Profit: Profit on each order: -6599 to +8399
+  o There are total of 21 columns
+    •Row_id: self-explanatory (9994 ids, so total 9994 orders data)
+    •Order_id: unique id of each order
+    •Order_date: Order date (format:DD:MM:YYYY)(year:2016,2017,2018,2019)
+    •Ship_date: Shipping date (format:DD:MM:YYYY) (year:2016,2017,2018,2019,2020)
+    •Shipping mode: Categorical: First class, Same day, Second class, Standard class
+    •Customer_id: Unique id for each customer. Can be used for counting total unique customers
+    •Customer_name: Name of customer (First and last name combined)
+    •Segment: Consumer, Corporate, Home office 
+    •Country: USA only one category
+    •City: Various cities of state
+    •State: State of country
+    •Postal code: Various posting code (There are some blanks)
+    •Region: Central, east, south, west
+    •Product_id: Unique product id (Can be used to count unique products)
+    •Category: Category of product: Furniture, office supplies, technology
+    •Sub-category: Subcategory in Furniture, office supplies, technology
+    •Product_name: Unique name of product (Just like product id, product name can be used to count unique products)
+    •Sales: Sales of each order: 0.444 to 22638
+    •Quantity: Quantity of items bought in one order: 1 to 14
+    •Discount: discount on items: 0 to 0.8
+    •Profit: Profit on each order: -6599 to +8399
 
 2.	Understanding the data:
-  o	Basically, the dataset is made up of sales in superstore having order date from 2016 to 2019 and total of 9994 orders 
-  o	The columns of data are already discussed in first part.
+  o Basically, the dataset is made up of sales in superstore having order date from 2016 to 2019 and total of 9994 orders 
+  o The columns of data are already discussed in first part.
 
 3.	What is the end goal here?
-  o	The end goal is to find key insights for sales and profit for various categories and products, region-wise or say state-wise
+  o The end goal is to find key insights for sales and profit for various categories and products, region-wise or say state-wise
 
 4.	What insights can be brought out?
 
-  o	What we can do is:
-    •	Identify sales and profit in each region
-    •	Identify sales and profit in each segment
-    •	Regionwise sales
-    •	State wise sales in map
-    •	Identify loss segment and check, whether is there any discount for that segment
-    •	Identify top 10 city having maximum profit 
-    •	Identify top 10 city having maximum loss
-    •	Identify maximum profit category/sub-category wise
-    •	Identify maximum loss category/sub-category wise
-    •	Count days of process of each order by subtracting ship date from order date
-    •	Identify which product is having maximum process days
-    •	Identify most frequent buyers
-    •	Identify customer spending most 
-    •	Identify most bought category, sub-category and unique product
-    •	Identify sales over time for each category/sub category by sales
-    •	Create multiple dashboards with unique insights 
-    •	Combine all the dashboards in one story
+  o What we can do is:
+    •Identify sales and profit in each region
+    •Identify sales and profit in each segment
+    •Regionwise sales
+    •State wise sales in map
+    •Identify loss segment and check, whether is there any discount for that segment
+    •Identify top 10 city having maximum profit 
+    •Identify top 10 city having maximum loss
+    •Identify maximum profit category/sub-category wise
+    •Identify maximum loss category/sub-category wise
+    •Count days of process of each order by subtracting ship date from order date
+    •Identify which product is having maximum process days
+    •Identify most frequent buyers
+    •Identify customer spending most 
+    •Identify most bought category, sub-category and unique product
+    •Identify sales over time for each category/sub category by sales
+    •Create multiple dashboards with unique insights 
+    •Combine all the dashboards in one story
 
 5.	Which filters can be used: There are many options for filters but most likely filters are:
   o	Date
