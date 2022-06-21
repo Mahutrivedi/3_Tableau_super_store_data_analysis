@@ -1,4 +1,4 @@
-1.	Understanding each column
+1.Understanding each column
 
   o There are total of 21 columns
     •Row_id: self-explanatory (9994 ids, so total 9994 orders data)
@@ -23,14 +23,14 @@
     •Discount: discount on items: 0 to 0.8
     •Profit: Profit on each order: -6599 to +8399
 
-2.	Understanding the data:
+2.Understanding the data:
   o Basically, the dataset is made up of sales in superstore having order date from 2016 to 2019 and total of 9994 orders 
   o The columns of data are already discussed in first part.
 
-3.	What is the end goal here?
+3.What is the end goal here?
   o The end goal is to find key insights for sales and profit for various categories and products, region-wise or say state-wise
 
-4.	What insights can be brought out?
+4.What insights can be brought out?
 
   o What we can do is:
     •Identify sales and profit in each region
@@ -51,7 +51,7 @@
     •Create multiple dashboards with unique insights 
     •Combine all the dashboards in one story
 
-5.	Which filters can be used: There are many options for filters but most likely filters are:
+5.Which filters can be used: There are many options for filters but most likely filters are:
   o	Date
   o	Category
   o	Sub-category
